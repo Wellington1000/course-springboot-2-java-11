@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.wellington.springcurso.entities.User;
 
-@RestController
 //Reponde no caminho "/users"
+@RestController
 @RequestMapping(value = "/users")
 public class UserResource {
 
