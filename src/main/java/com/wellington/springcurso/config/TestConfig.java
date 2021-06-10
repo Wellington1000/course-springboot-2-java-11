@@ -15,7 +15,7 @@ import com.wellington.springcurso.repositories.UserRepository;
 
 @Configuration
 @Profile("test")
-public class TestConfig implements CommandLineRunner{
+public class TestConfig implements CommandLineRunner{//'CommandLineRunner' executa quando o programa for iniciado
 
 	
 	@Autowired
